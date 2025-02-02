@@ -116,6 +116,7 @@ NRF.on('disconnect', function(){
   Bangle.drawWidgets();
   g.setFont("6x8",2);
   g.setFontAlign(-1,-1);
+  g.setColor(1);
   g.drawString('Connecting...',10,60,true);
   g.drawString(NRF.getAddress(true),5,90,true);
 });
